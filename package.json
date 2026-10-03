@@ -1,0 +1,10 @@
+{
+  "name": "booklens",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "check": "node --check app.js"
+  }
+}
